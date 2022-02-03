@@ -112,7 +112,7 @@ def arguments(argsval):
                         repository. If specified, the script pushes the changes
                         to the repository. The link is accepted in SSH or HTTPS
                         format. For example: git@github.com:user/repo.git or
-                        https://github.com/user/repo.git""")
+                        https://github.com/PioneerDev1023/git-repo-schedule""")
     parser.add_argument('-un', '--user_name', type=str, required=False, default="PioneerDev1023",
                         help="""Overrides user.name git config.
                         If not specified, the global config is used.""")
